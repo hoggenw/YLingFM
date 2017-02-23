@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1143BA9E1E5E71FF002CD06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BA9D1E5E71FF002CD06B /* main.m */; };
+		1143BAA11E5E71FF002CD06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BAA01E5E71FF002CD06B /* AppDelegate.m */; };
+		1143BAA91E5E71FF002CD06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1143BAA81E5E71FF002CD06B /* Assets.xcassets */; };
+		1143BAAC1E5E71FF002CD06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1143BAAA1E5E71FF002CD06B /* LaunchScreen.storyboard */; };
+		1143BAB71E5E71FF002CD06B /* YLingFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BAB61E5E71FF002CD06B /* YLingFMTests.m */; };
+		1143BACC1E5E7A82002CD06B /* YLingHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BACB1E5E7A82002CD06B /* YLingHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1143BAB31E5E71FF002CD06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1143BA911E5E71FF002CD06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1143BA981E5E71FF002CD06B;
+			remoteInfo = YLingFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1143BA991E5E71FF002CD06B /* YLingFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLingFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1143BA9D1E5E71FF002CD06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1143BA9F1E5E71FF002CD06B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1143BAA01E5E71FF002CD06B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1143BAA81E5E71FF002CD06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		1143BAAB1E5E71FF002CD06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1143BAAD1E5E71FF002CD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1143BAB21E5E71FF002CD06B /* YLingFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLingFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1143BAB61E5E71FF002CD06B /* YLingFMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLingFMTests.m; sourceTree = "<group>"; };
+		1143BAB81E5E71FF002CD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1143BACA1E5E7A82002CD06B /* YLingHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLingHomeViewController.h; sourceTree = "<group>"; };
+		1143BACB1E5E7A82002CD06B /* YLingHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLingHomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1143BA961E5E71FF002CD06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1143BAAF1E5E71FF002CD06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1143BA901E5E71FF002CD06B = {
+			isa = PBXGroup;
+			children = (
+				1143BA9B1E5E71FF002CD06B /* YLingFM */,
+				1143BAB51E5E71FF002CD06B /* YLingFMTests */,
+				1143BA9A1E5E71FF002CD06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1143BA9A1E5E71FF002CD06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1143BA991E5E71FF002CD06B /* YLingFM.app */,
+				1143BAB21E5E71FF002CD06B /* YLingFMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1143BA9B1E5E71FF002CD06B /* YLingFM */ = {
+			isa = PBXGroup;
+			children = (
+				1143BAC61E5E7A05002CD06B /* MVC */,
+				1143BAC51E5E7967002CD06B /* Resources */,
+				1143BAC41E5E7947002CD06B /* Common */,
+				1143BAC31E5E7917002CD06B /* Utils */,
+				1143BAC21E5E78F5002CD06B /* Vendor */,
+				1143BAC11E5E78C3002CD06B /* ManageMent */,
+				1143BA9C1E5E71FF002CD06B /* Supporting Files */,
+			);
+			path = YLingFM;
+			sourceTree = "<group>";
+		};
+		1143BA9C1E5E71FF002CD06B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1143BA9F1E5E71FF002CD06B /* AppDelegate.h */,
+				1143BAA01E5E71FF002CD06B /* AppDelegate.m */,
+				1143BAAD1E5E71FF002CD06B /* Info.plist */,
+				1143BAAA1E5E71FF002CD06B /* LaunchScreen.storyboard */,
+				1143BA9D1E5E71FF002CD06B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1143BAB51E5E71FF002CD06B /* YLingFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				1143BAB61E5E71FF002CD06B /* YLingFMTests.m */,
+				1143BAB81E5E71FF002CD06B /* Info.plist */,
+			);
+			path = YLingFMTests;
+			sourceTree = "<group>";
+		};
+		1143BAC11E5E78C3002CD06B /* ManageMent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ManageMent;
+			sourceTree = "<group>";
+		};
+		1143BAC21E5E78F5002CD06B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		1143BAC31E5E7917002CD06B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1143BAC41E5E7947002CD06B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1143BAC51E5E7967002CD06B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1143BAA81E5E71FF002CD06B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1143BAC61E5E7A05002CD06B /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1143BAC71E5E7A2E002CD06B /* Home */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1143BAC71E5E7A2E002CD06B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1143BACA1E5E7A82002CD06B /* YLingHomeViewController.h */,
+				1143BACB1E5E7A82002CD06B /* YLingHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1143BA981E5E71FF002CD06B /* YLingFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1143BABB1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFM" */;
+			buildPhases = (
+				1143BA951E5E71FF002CD06B /* Sources */,
+				1143BA961E5E71FF002CD06B /* Frameworks */,
+				1143BA971E5E71FF002CD06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLingFM;
+			productName = YLingFM;
+			productReference = 1143BA991E5E71FF002CD06B /* YLingFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1143BAB11E5E71FF002CD06B /* YLingFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1143BABE1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFMTests" */;
+			buildPhases = (
+				1143BAAE1E5E71FF002CD06B /* Sources */,
+				1143BAAF1E5E71FF002CD06B /* Frameworks */,
+				1143BAB01E5E71FF002CD06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1143BAB41E5E71FF002CD06B /* PBXTargetDependency */,
+			);
+			name = YLingFMTests;
+			productName = YLingFMTests;
+			productReference = 1143BAB21E5E71FF002CD06B /* YLingFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1143BA911E5E71FF002CD06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ios-mac";
+				TargetAttributes = {
+					1143BA981E5E71FF002CD06B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KD59NK3467;
+						ProvisioningStyle = Automatic;
+					};
+					1143BAB11E5E71FF002CD06B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KD59NK3467;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1143BA981E5E71FF002CD06B;
+					};
+				};
+			};
+			buildConfigurationList = 1143BA941E5E71FF002CD06B /* Build configuration list for PBXProject "YLingFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1143BA901E5E71FF002CD06B;
+			productRefGroup = 1143BA9A1E5E71FF002CD06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1143BA981E5E71FF002CD06B /* YLingFM */,
+				1143BAB11E5E71FF002CD06B /* YLingFMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1143BA971E5E71FF002CD06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1143BAAC1E5E71FF002CD06B /* LaunchScreen.storyboard in Resources */,
+				1143BAA91E5E71FF002CD06B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1143BAB01E5E71FF002CD06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1143BA951E5E71FF002CD06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1143BACC1E5E7A82002CD06B /* YLingHomeViewController.m in Sources */,
+				1143BAA11E5E71FF002CD06B /* AppDelegate.m in Sources */,
+				1143BA9E1E5E71FF002CD06B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1143BAAE1E5E71FF002CD06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1143BAB71E5E71FF002CD06B /* YLingFMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1143BAB41E5E71FF002CD06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1143BA981E5E71FF002CD06B /* YLingFM */;
+			targetProxy = 1143BAB31E5E71FF002CD06B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1143BAAA1E5E71FF002CD06B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1143BAAB1E5E71FF002CD06B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1143BAB91E5E71FF002CD06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1143BABA1E5E71FF002CD06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1143BABC1E5E71FF002CD06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KD59NK3467;
+				INFOPLIST_FILE = YLingFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1143BABD1E5E71FF002CD06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KD59NK3467;
+				INFOPLIST_FILE = YLingFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1143BABF1E5E71FF002CD06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KD59NK3467;
+				INFOPLIST_FILE = YLingFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLingFM.app/YLingFM";
+			};
+			name = Debug;
+		};
+		1143BAC01E5E71FF002CD06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KD59NK3467;
+				INFOPLIST_FILE = YLingFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLingFM.app/YLingFM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1143BA941E5E71FF002CD06B /* Build configuration list for PBXProject "YLingFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143BAB91E5E71FF002CD06B /* Debug */,
+				1143BABA1E5E71FF002CD06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1143BABB1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143BABC1E5E71FF002CD06B /* Debug */,
+				1143BABD1E5E71FF002CD06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1143BABE1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143BABF1E5E71FF002CD06B /* Debug */,
+				1143BAC01E5E71FF002CD06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1143BA911E5E71FF002CD06B /* Project object */;
+}
