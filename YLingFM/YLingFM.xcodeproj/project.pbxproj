@@ -7,48 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1143BA9E1E5E71FF002CD06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BA9D1E5E71FF002CD06B /* main.m */; };
-		1143BAA11E5E71FF002CD06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BAA01E5E71FF002CD06B /* AppDelegate.m */; };
-		1143BAA91E5E71FF002CD06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1143BAA81E5E71FF002CD06B /* Assets.xcassets */; };
-		1143BAAC1E5E71FF002CD06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1143BAAA1E5E71FF002CD06B /* LaunchScreen.storyboard */; };
-		1143BAB71E5E71FF002CD06B /* YLingFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BAB61E5E71FF002CD06B /* YLingFMTests.m */; };
-		1143BACC1E5E7A82002CD06B /* YLingHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143BACB1E5E7A82002CD06B /* YLingHomeViewController.m */; };
+		111BA30B1E63B230006CC516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA30A1E63B230006CC516 /* AppDelegate.swift */; };
+		111BA3121E63B230006CC516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111BA3111E63B230006CC516 /* Assets.xcassets */; };
+		111BA3151E63B230006CC516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111BA3131E63B230006CC516 /* LaunchScreen.storyboard */; };
+		111BA3201E63B230006CC516 /* YLingFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA31F1E63B230006CC516 /* YLingFMTests.swift */; };
+		111BA3321E63B412006CC516 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA3311E63B412006CC516 /* HomeViewController.swift */; };
+		111BA3371E63CD2E006CC516 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA3361E63CD2E006CC516 /* HomeModels.swift */; };
+		B74BB9CB5C082031101CDB3D /* Pods_YLingFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1143BAB31E5E71FF002CD06B /* PBXContainerItemProxy */ = {
+		111BA31C1E63B230006CC516 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1143BA911E5E71FF002CD06B /* Project object */;
+			containerPortal = 111BA2FF1E63B230006CC516 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1143BA981E5E71FF002CD06B;
+			remoteGlobalIDString = 111BA3061E63B230006CC516;
 			remoteInfo = YLingFM;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1143BA991E5E71FF002CD06B /* YLingFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLingFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1143BA9D1E5E71FF002CD06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1143BA9F1E5E71FF002CD06B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1143BAA01E5E71FF002CD06B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1143BAA81E5E71FF002CD06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		1143BAAB1E5E71FF002CD06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1143BAAD1E5E71FF002CD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1143BAB21E5E71FF002CD06B /* YLingFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLingFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1143BAB61E5E71FF002CD06B /* YLingFMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLingFMTests.m; sourceTree = "<group>"; };
-		1143BAB81E5E71FF002CD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1143BACA1E5E7A82002CD06B /* YLingHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLingHomeViewController.h; sourceTree = "<group>"; };
-		1143BACB1E5E7A82002CD06B /* YLingHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLingHomeViewController.m; sourceTree = "<group>"; };
+		111BA3071E63B230006CC516 /* YLingFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLingFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111BA30A1E63B230006CC516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		111BA3111E63B230006CC516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		111BA3141E63B230006CC516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		111BA3161E63B230006CC516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111BA31B1E63B230006CC516 /* YLingFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLingFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111BA31F1E63B230006CC516 /* YLingFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLingFMTests.swift; sourceTree = "<group>"; };
+		111BA3211E63B230006CC516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111BA3311E63B412006CC516 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		111BA3361E63CD2E006CC516 /* HomeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		52FD1D8813B6C4A2350A5189 /* Pods-YLingFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLingFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM.release.xcconfig"; sourceTree = "<group>"; };
+		9973D39E06E767DB1FF7EB9C /* Pods-YLingFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLingFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLingFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1143BA961E5E71FF002CD06B /* Frameworks */ = {
+		111BA3041E63B230006CC516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74BB9CB5C082031101CDB3D /* Pods_YLingFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1143BAAF1E5E71FF002CD06B /* Frameworks */ = {
+		111BA3181E63B230006CC516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,122 +61,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1143BA901E5E71FF002CD06B = {
+		111BA2FE1E63B230006CC516 = {
 			isa = PBXGroup;
 			children = (
-				1143BA9B1E5E71FF002CD06B /* YLingFM */,
-				1143BAB51E5E71FF002CD06B /* YLingFMTests */,
-				1143BA9A1E5E71FF002CD06B /* Products */,
+				111BA3091E63B230006CC516 /* YLingFM */,
+				111BA32C1E63B3BF006CC516 /* Resources */,
+				111BA31E1E63B230006CC516 /* YLingFMTests */,
+				111BA3081E63B230006CC516 /* Products */,
+				D8243468A1D08E3B14DCB134 /* Pods */,
+				FC5D1B6410AD97277A159043 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1143BA9A1E5E71FF002CD06B /* Products */ = {
+		111BA3081E63B230006CC516 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1143BA991E5E71FF002CD06B /* YLingFM.app */,
-				1143BAB21E5E71FF002CD06B /* YLingFMTests.xctest */,
+				111BA3071E63B230006CC516 /* YLingFM.app */,
+				111BA31B1E63B230006CC516 /* YLingFMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1143BA9B1E5E71FF002CD06B /* YLingFM */ = {
+		111BA3091E63B230006CC516 /* YLingFM */ = {
 			isa = PBXGroup;
 			children = (
-				1143BAC61E5E7A05002CD06B /* MVC */,
-				1143BAC51E5E7967002CD06B /* Resources */,
-				1143BAC41E5E7947002CD06B /* Common */,
-				1143BAC31E5E7917002CD06B /* Utils */,
-				1143BAC21E5E78F5002CD06B /* Vendor */,
-				1143BAC11E5E78C3002CD06B /* ManageMent */,
-				1143BA9C1E5E71FF002CD06B /* Supporting Files */,
+				111BA32A1E63B3BF006CC516 /* Vendor */,
+				111BA32B1E63B3BF006CC516 /* Utils */,
+				111BA32D1E63B3BF006CC516 /* MVC */,
+				111BA32F1E63B3BF006CC516 /* ManageMent */,
+				111BA3301E63B3BF006CC516 /* Common */,
+				111BA30A1E63B230006CC516 /* AppDelegate.swift */,
+				111BA3161E63B230006CC516 /* Info.plist */,
 			);
 			path = YLingFM;
 			sourceTree = "<group>";
 		};
-		1143BA9C1E5E71FF002CD06B /* Supporting Files */ = {
+		111BA31E1E63B230006CC516 /* YLingFMTests */ = {
 			isa = PBXGroup;
 			children = (
-				1143BA9F1E5E71FF002CD06B /* AppDelegate.h */,
-				1143BAA01E5E71FF002CD06B /* AppDelegate.m */,
-				1143BAAD1E5E71FF002CD06B /* Info.plist */,
-				1143BAAA1E5E71FF002CD06B /* LaunchScreen.storyboard */,
-				1143BA9D1E5E71FF002CD06B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1143BAB51E5E71FF002CD06B /* YLingFMTests */ = {
-			isa = PBXGroup;
-			children = (
-				1143BAB61E5E71FF002CD06B /* YLingFMTests.m */,
-				1143BAB81E5E71FF002CD06B /* Info.plist */,
+				111BA31F1E63B230006CC516 /* YLingFMTests.swift */,
+				111BA3211E63B230006CC516 /* Info.plist */,
 			);
 			path = YLingFMTests;
 			sourceTree = "<group>";
 		};
-		1143BAC11E5E78C3002CD06B /* ManageMent */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ManageMent;
-			sourceTree = "<group>";
-		};
-		1143BAC21E5E78F5002CD06B /* Vendor */ = {
+		111BA32A1E63B3BF006CC516 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Vendor;
 			sourceTree = "<group>";
 		};
-		1143BAC31E5E7917002CD06B /* Utils */ = {
+		111BA32B1E63B3BF006CC516 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		1143BAC41E5E7947002CD06B /* Common */ = {
+		111BA32C1E63B3BF006CC516 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				111BA3111E63B230006CC516 /* Assets.xcassets */,
+				111BA3131E63B230006CC516 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			path = YLingFM/Resources;
+			sourceTree = "<group>";
+		};
+		111BA32D1E63B3BF006CC516 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				111BA32E1E63B3BF006CC516 /* Home */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		111BA32E1E63B3BF006CC516 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				111BA3351E63CCFE006CC516 /* Models */,
+				111BA3341E63CCDD006CC516 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		111BA32F1E63B3BF006CC516 /* ManageMent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ManageMent;
+			sourceTree = "<group>";
+		};
+		111BA3301E63B3BF006CC516 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		1143BAC51E5E7967002CD06B /* Resources */ = {
+		111BA3341E63CCDD006CC516 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1143BAA81E5E71FF002CD06B /* Assets.xcassets */,
+				111BA3311E63B412006CC516 /* HomeViewController.swift */,
 			);
-			path = Resources;
+			name = Controller;
 			sourceTree = "<group>";
 		};
-		1143BAC61E5E7A05002CD06B /* MVC */ = {
+		111BA3351E63CCFE006CC516 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1143BAC71E5E7A2E002CD06B /* Home */,
+				111BA3361E63CD2E006CC516 /* HomeModels.swift */,
 			);
-			path = MVC;
+			name = Models;
 			sourceTree = "<group>";
 		};
-		1143BAC71E5E7A2E002CD06B /* Home */ = {
+		D8243468A1D08E3B14DCB134 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1143BACA1E5E7A82002CD06B /* YLingHomeViewController.h */,
-				1143BACB1E5E7A82002CD06B /* YLingHomeViewController.m */,
+				9973D39E06E767DB1FF7EB9C /* Pods-YLingFM.debug.xcconfig */,
+				52FD1D8813B6C4A2350A5189 /* Pods-YLingFM.release.xcconfig */,
 			);
-			path = Home;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC5D1B6410AD97277A159043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1143BA981E5E71FF002CD06B /* YLingFM */ = {
+		111BA3061E63B230006CC516 /* YLingFM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1143BABB1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFM" */;
+			buildConfigurationList = 111BA3241E63B230006CC516 /* Build configuration list for PBXNativeTarget "YLingFM" */;
 			buildPhases = (
-				1143BA951E5E71FF002CD06B /* Sources */,
-				1143BA961E5E71FF002CD06B /* Frameworks */,
-				1143BA971E5E71FF002CD06B /* Resources */,
+				AFF5DD3114A787165B703BDB /* [CP] Check Pods Manifest.lock */,
+				111BA3031E63B230006CC516 /* Sources */,
+				111BA3041E63B230006CC516 /* Frameworks */,
+				111BA3051E63B230006CC516 /* Resources */,
+				D2B3FD590C9B7FFC6A1BA9CE /* [CP] Embed Pods Frameworks */,
+				2E361C69763AAA0F3D5FBEFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,50 +213,51 @@
 			);
 			name = YLingFM;
 			productName = YLingFM;
-			productReference = 1143BA991E5E71FF002CD06B /* YLingFM.app */;
+			productReference = 111BA3071E63B230006CC516 /* YLingFM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1143BAB11E5E71FF002CD06B /* YLingFMTests */ = {
+		111BA31A1E63B230006CC516 /* YLingFMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1143BABE1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFMTests" */;
+			buildConfigurationList = 111BA3271E63B230006CC516 /* Build configuration list for PBXNativeTarget "YLingFMTests" */;
 			buildPhases = (
-				1143BAAE1E5E71FF002CD06B /* Sources */,
-				1143BAAF1E5E71FF002CD06B /* Frameworks */,
-				1143BAB01E5E71FF002CD06B /* Resources */,
+				111BA3171E63B230006CC516 /* Sources */,
+				111BA3181E63B230006CC516 /* Frameworks */,
+				111BA3191E63B230006CC516 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1143BAB41E5E71FF002CD06B /* PBXTargetDependency */,
+				111BA31D1E63B230006CC516 /* PBXTargetDependency */,
 			);
 			name = YLingFMTests;
 			productName = YLingFMTests;
-			productReference = 1143BAB21E5E71FF002CD06B /* YLingFMTests.xctest */;
+			productReference = 111BA31B1E63B230006CC516 /* YLingFMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1143BA911E5E71FF002CD06B /* Project object */ = {
+		111BA2FF1E63B230006CC516 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "ios-mac";
 				TargetAttributes = {
-					1143BA981E5E71FF002CD06B = {
+					111BA3061E63B230006CC516 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KD59NK3467;
+						DevelopmentTeam = 9GH6UJW25X;
 						ProvisioningStyle = Automatic;
 					};
-					1143BAB11E5E71FF002CD06B = {
+					111BA31A1E63B230006CC516 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KD59NK3467;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1143BA981E5E71FF002CD06B;
+						TestTargetID = 111BA3061E63B230006CC516;
 					};
 				};
 			};
-			buildConfigurationList = 1143BA941E5E71FF002CD06B /* Build configuration list for PBXProject "YLingFM" */;
+			buildConfigurationList = 111BA3021E63B230006CC516 /* Build configuration list for PBXProject "YLingFM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,28 +265,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 1143BA901E5E71FF002CD06B;
-			productRefGroup = 1143BA9A1E5E71FF002CD06B /* Products */;
+			mainGroup = 111BA2FE1E63B230006CC516;
+			productRefGroup = 111BA3081E63B230006CC516 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1143BA981E5E71FF002CD06B /* YLingFM */,
-				1143BAB11E5E71FF002CD06B /* YLingFMTests */,
+				111BA3061E63B230006CC516 /* YLingFM */,
+				111BA31A1E63B230006CC516 /* YLingFMTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1143BA971E5E71FF002CD06B /* Resources */ = {
+		111BA3051E63B230006CC516 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1143BAAC1E5E71FF002CD06B /* LaunchScreen.storyboard in Resources */,
-				1143BAA91E5E71FF002CD06B /* Assets.xcassets in Resources */,
+				111BA3151E63B230006CC516 /* LaunchScreen.storyboard in Resources */,
+				111BA3121E63B230006CC516 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1143BAB01E5E71FF002CD06B /* Resources */ = {
+		111BA3191E63B230006CC516 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,48 +295,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E361C69763AAA0F3D5FBEFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF5DD3114A787165B703BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B3FD590C9B7FFC6A1BA9CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1143BA951E5E71FF002CD06B /* Sources */ = {
+		111BA3031E63B230006CC516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1143BACC1E5E7A82002CD06B /* YLingHomeViewController.m in Sources */,
-				1143BAA11E5E71FF002CD06B /* AppDelegate.m in Sources */,
-				1143BA9E1E5E71FF002CD06B /* main.m in Sources */,
+				111BA30B1E63B230006CC516 /* AppDelegate.swift in Sources */,
+				111BA3371E63CD2E006CC516 /* HomeModels.swift in Sources */,
+				111BA3321E63B412006CC516 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1143BAAE1E5E71FF002CD06B /* Sources */ = {
+		111BA3171E63B230006CC516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1143BAB71E5E71FF002CD06B /* YLingFMTests.m in Sources */,
+				111BA3201E63B230006CC516 /* YLingFMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1143BAB41E5E71FF002CD06B /* PBXTargetDependency */ = {
+		111BA31D1E63B230006CC516 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1143BA981E5E71FF002CD06B /* YLingFM */;
-			targetProxy = 1143BAB31E5E71FF002CD06B /* PBXContainerItemProxy */;
+			target = 111BA3061E63B230006CC516 /* YLingFM */;
+			targetProxy = 111BA31C1E63B230006CC516 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1143BAAA1E5E71FF002CD06B /* LaunchScreen.storyboard */ = {
+		111BA3131E63B230006CC516 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1143BAAB1E5E71FF002CD06B /* Base */,
+				111BA3141E63B230006CC516 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1143BAB91E5E71FF002CD06B /* Debug */ = {
+		111BA3221E63B230006CC516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,10 +429,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1143BABA1E5E71FF002CD06B /* Release */ = {
+		111BA3231E63B230006CC516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,56 +471,67 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1143BABC1E5E71FF002CD06B /* Debug */ = {
+		111BA3251E63B230006CC516 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9973D39E06E767DB1FF7EB9C /* Pods-YLingFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KD59NK3467;
+				DEVELOPMENT_TEAM = 9GH6UJW25X;
 				INFOPLIST_FILE = YLingFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		1143BABD1E5E71FF002CD06B /* Release */ = {
+		111BA3261E63B230006CC516 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FD1D8813B6C4A2350A5189 /* Pods-YLingFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KD59NK3467;
+				DEVELOPMENT_TEAM = 9GH6UJW25X;
 				INFOPLIST_FILE = YLingFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		1143BABF1E5E71FF002CD06B /* Debug */ = {
+		111BA3281E63B230006CC516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KD59NK3467;
 				INFOPLIST_FILE = YLingFMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLingFM.app/YLingFM";
 			};
 			name = Debug;
 		};
-		1143BAC01E5E71FF002CD06B /* Release */ = {
+		111BA3291E63B230006CC516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KD59NK3467;
 				INFOPLIST_FILE = YLingFMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangliugen.YLingFMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLingFM.app/YLingFM";
 			};
 			name = Release;
@@ -444,32 +539,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1143BA941E5E71FF002CD06B /* Build configuration list for PBXProject "YLingFM" */ = {
+		111BA3021E63B230006CC516 /* Build configuration list for PBXProject "YLingFM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1143BAB91E5E71FF002CD06B /* Debug */,
-				1143BABA1E5E71FF002CD06B /* Release */,
+				111BA3221E63B230006CC516 /* Debug */,
+				111BA3231E63B230006CC516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1143BABB1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFM" */ = {
+		111BA3241E63B230006CC516 /* Build configuration list for PBXNativeTarget "YLingFM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1143BABC1E5E71FF002CD06B /* Debug */,
-				1143BABD1E5E71FF002CD06B /* Release */,
+				111BA3251E63B230006CC516 /* Debug */,
+				111BA3261E63B230006CC516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1143BABE1E5E71FF002CD06B /* Build configuration list for PBXNativeTarget "YLingFMTests" */ = {
+		111BA3271E63B230006CC516 /* Build configuration list for PBXNativeTarget "YLingFMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1143BABF1E5E71FF002CD06B /* Debug */,
-				1143BAC01E5E71FF002CD06B /* Release */,
+				111BA3281E63B230006CC516 /* Debug */,
+				111BA3291E63B230006CC516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1143BA911E5E71FF002CD06B /* Project object */;
+	rootObject = 111BA2FF1E63B230006CC516 /* Project object */;
 }

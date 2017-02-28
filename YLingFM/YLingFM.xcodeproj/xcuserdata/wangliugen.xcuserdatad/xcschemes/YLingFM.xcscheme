@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1143BA981E5E71FF002CD06B"
+               BlueprintIdentifier = "111BA3061E63B230006CC516"
                BuildableName = "YLingFM.app"
                BlueprintName = "YLingFM"
                ReferencedContainer = "container:YLingFM.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1143BAB11E5E71FF002CD06B"
+               BlueprintIdentifier = "111BA31A1E63B230006CC516"
                BuildableName = "YLingFMTests.xctest"
                BlueprintName = "YLingFMTests"
                ReferencedContainer = "container:YLingFM.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1143BA981E5E71FF002CD06B"
+            BlueprintIdentifier = "111BA3061E63B230006CC516"
             BuildableName = "YLingFM.app"
             BlueprintName = "YLingFM"
             ReferencedContainer = "container:YLingFM.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1143BA981E5E71FF002CD06B"
+            BlueprintIdentifier = "111BA3061E63B230006CC516"
             BuildableName = "YLingFM.app"
             BlueprintName = "YLingFM"
             ReferencedContainer = "container:YLingFM.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1143BA981E5E71FF002CD06B"
+            BlueprintIdentifier = "111BA3061E63B230006CC516"
             BuildableName = "YLingFM.app"
             BlueprintName = "YLingFM"
             ReferencedContainer = "container:YLingFM.xcodeproj">
