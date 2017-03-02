@@ -61,9 +61,7 @@ class HomeViewController: UIViewController {
             
             
        #elseif true
-//            let searchResult = inputTextFeild.rx.text
-//                .throttle(0.3, scheduler: MainScheduler.instance)
-//                .distinctUntilChanged()
+
             
             
     #elseif true
