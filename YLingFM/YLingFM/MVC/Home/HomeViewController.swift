@@ -32,7 +32,7 @@ class HomeViewController: UIViewController {
         self.view.addSubview(inputTextFeild)
         self.view.addSubview(cancalButton)
         self.view.addSubview(secondTextFeild)
-         cancalButton.addTarget(self, action: #selector(cancelButtonAction(sender:)), for: .touchUpInside)
+        cancalButton.addTarget(self, action: #selector(cancelButtonAction(sender:)), for: .touchUpInside)
         
         #if false
         //MARK: - TEST 1
