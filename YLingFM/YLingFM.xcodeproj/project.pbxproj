@@ -12,7 +12,6 @@
 		111BA3151E63B230006CC516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111BA3131E63B230006CC516 /* LaunchScreen.storyboard */; };
 		111BA3201E63B230006CC516 /* YLingFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA31F1E63B230006CC516 /* YLingFMTests.swift */; };
 		111BA3321E63B412006CC516 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA3311E63B412006CC516 /* HomeViewController.swift */; };
-		111BA3371E63CD2E006CC516 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA3361E63CD2E006CC516 /* HomeModels.swift */; };
 		B74BB9CB5C082031101CDB3D /* Pods_YLingFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		111BA31F1E63B230006CC516 /* YLingFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLingFMTests.swift; sourceTree = "<group>"; };
 		111BA3211E63B230006CC516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111BA3311E63B412006CC516 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		111BA3361E63CD2E006CC516 /* HomeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
 		52FD1D8813B6C4A2350A5189 /* Pods-YLingFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLingFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM.release.xcconfig"; sourceTree = "<group>"; };
 		9973D39E06E767DB1FF7EB9C /* Pods-YLingFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLingFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM.debug.xcconfig"; sourceTree = "<group>"; };
 		DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLingFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +130,7 @@
 		111BA32D1E63B3BF006CC516 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				11340BF31E6F929800530B4B /* PlayView */,
 				111BA32E1E63B3BF006CC516 /* Home */,
 			);
 			path = MVC;
@@ -171,9 +170,15 @@
 		111BA3351E63CCFE006CC516 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				111BA3361E63CD2E006CC516 /* HomeModels.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		11340BF31E6F929800530B4B /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PlayView;
 			sourceTree = "<group>";
 		};
 		D8243468A1D08E3B14DCB134 /* Pods */ = {
@@ -349,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				111BA30B1E63B230006CC516 /* AppDelegate.swift in Sources */,
-				111BA3371E63CD2E006CC516 /* HomeModels.swift in Sources */,
 				111BA3321E63B412006CC516 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

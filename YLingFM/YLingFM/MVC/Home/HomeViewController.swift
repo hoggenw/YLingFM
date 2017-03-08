@@ -11,10 +11,6 @@ import RxSwift
 import RxCocoa
 
 class HomeViewController: UIViewController {
-     //MARK: - TEST 1
-    var timer: Timer?
-    var changeModel: TestModel = TestModel()
-    //==============
     
     var subscription: Disposable?
     var inputTextFeild: UITextField = UITextField(frame: CGRect(x: 60, y: 100, width: 200, height: 35))
@@ -24,49 +20,8 @@ class HomeViewController: UIViewController {
     private let disPoseBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
-        cancalButton.setTitle("退出", for: .normal)
-        cancalButton.backgroundColor = UIColor.gray
-        inputTextFeild.backgroundColor = UIColor.green
-        secondTextFeild.backgroundColor = UIColor.green
-        self.view.addSubview(inputTextFeild)
-        self.view.addSubview(cancalButton)
-        self.view.addSubview(secondTextFeild)
-        cancalButton.addTarget(self, action: #selector(cancelButtonAction(sender:)), for: .touchUpInside)
-        
-        #if false
-        //MARK: - TEST 1
-        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+        self.view.backgroundColor = UIColor.white
 
-        changeModel.rx.observe(Int.self, "testNumber").subscribe(onNext: { (testNumber) in
-            
-             print("testNumber = \(testNumber)")
-            
-        }).addDisposableTo(disPoseBag)
-           
-
-        //====================
-        #elseif false
-            subscription = inputTextFeild.rx.text.subscribe({ (text) in
-               print("\(text)")
-            })
-       #elseif false
-            let firstObserverable = inputTextFeild.rx.text.map({String(format: "%@%@", "first" , $0!) })
-            let secondObserrable = secondTextFeild.rx.text.filter({($0?.characters.count)! > 3})
-            _ = Observable.combineLatest(firstObserverable, secondObserrable, resultSelector: { (text1, text2) -> (String, Int) in
-                return (text1 + text2!, text1.characters.count + (text2?.characters.count)!)
-            }).subscribe(onNext: { (element1) in
-                print("\(element1.0) : \(element1.1)")
-            })
-            
-            
-       #elseif true
-
-            
-            
-    #elseif true
-             let nameObserable = inputTextFeild.rx.text.shareReplay(1).map({($0?.characters.count)! >= 6})
-        #endif
 
         
     }
@@ -76,11 +31,6 @@ class HomeViewController: UIViewController {
         print("取消了")
         subscription?.dispose()
     }
-    
-    func timerAction() {
-        changeModel.testNumber += 2
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
