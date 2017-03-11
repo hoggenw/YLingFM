@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
     var inputTextFeild: UITextField = UITextField(frame: CGRect(x: 60, y: 100, width: 200, height: 35))
     var secondTextFeild: UITextField = UITextField(frame: CGRect(x: 60, y: 200, width: 200, height: 35))
     var cancalButton: UIButton = UIButton(frame:  CGRect(x: 100, y: 300, width: 100, height: 35))
+    var seg: UISegmentedControl?
 
     private let disPoseBag = DisposeBag()
     override func viewDidLoad() {

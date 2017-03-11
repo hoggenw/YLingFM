@@ -12,6 +12,8 @@
 		111BA3151E63B230006CC516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111BA3131E63B230006CC516 /* LaunchScreen.storyboard */; };
 		111BA3201E63B230006CC516 /* YLingFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA31F1E63B230006CC516 /* YLingFMTests.swift */; };
 		111BA3321E63B412006CC516 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BA3311E63B412006CC516 /* HomeViewController.swift */; };
+		11340BF61E70E93000530B4B /* YLingConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11340BF51E70E93000530B4B /* YLingConstant.swift */; };
+		11340BF91E71413800530B4B /* YLSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11340BF81E71413700530B4B /* YLSegmentedControl.swift */; };
 		B74BB9CB5C082031101CDB3D /* Pods_YLingFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		111BA31F1E63B230006CC516 /* YLingFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLingFMTests.swift; sourceTree = "<group>"; };
 		111BA3211E63B230006CC516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111BA3311E63B412006CC516 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		11340BF51E70E93000530B4B /* YLingConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLingConstant.swift; sourceTree = "<group>"; };
+		11340BF81E71413700530B4B /* YLSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSegmentedControl.swift; sourceTree = "<group>"; };
 		52FD1D8813B6C4A2350A5189 /* Pods-YLingFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLingFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM.release.xcconfig"; sourceTree = "<group>"; };
 		9973D39E06E767DB1FF7EB9C /* Pods-YLingFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLingFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLingFM/Pods-YLingFM.debug.xcconfig"; sourceTree = "<group>"; };
 		DEBFF5E53493CEA0B40C174D /* Pods_YLingFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLingFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +143,7 @@
 		111BA32E1E63B3BF006CC516 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				11340BF71E71410D00530B4B /* Views */,
 				111BA3351E63CCFE006CC516 /* Models */,
 				111BA3341E63CCDD006CC516 /* Controller */,
 			);
@@ -155,6 +160,7 @@
 		111BA3301E63B3BF006CC516 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				11340BF41E70E90B00530B4B /* Constant */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -179,6 +185,22 @@
 			children = (
 			);
 			name = PlayView;
+			sourceTree = "<group>";
+		};
+		11340BF41E70E90B00530B4B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				11340BF51E70E93000530B4B /* YLingConstant.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		11340BF71E71410D00530B4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11340BF81E71413700530B4B /* YLSegmentedControl.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		D8243468A1D08E3B14DCB134 /* Pods */ = {
@@ -353,6 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11340BF61E70E93000530B4B /* YLingConstant.swift in Sources */,
+				11340BF91E71413800530B4B /* YLSegmentedControl.swift in Sources */,
 				111BA30B1E63B230006CC516 /* AppDelegate.swift in Sources */,
 				111BA3321E63B412006CC516 /* HomeViewController.swift in Sources */,
 			);
